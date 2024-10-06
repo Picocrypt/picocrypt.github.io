@@ -1,0 +1,1 @@
+Note: this repository hosts the web interface for Picocrypt in a server-like style, so there are multiple files to be loaded by the browser. If you're looking for a single page downloadable web interface, https://github.com/Picocrypt/Web contains the code and instructions for that.
