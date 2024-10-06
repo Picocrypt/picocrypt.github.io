@@ -126,6 +126,7 @@
 						setTimeout(() => {
 							window.location.reload();
 						}, 3000);
+						return;
 					}
 					document.querySelector("body > div > div > p").innerHTML = this.files[0].name;
 					if(this.files[0].name.endsWith(".pcv")){
