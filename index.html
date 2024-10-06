@@ -121,7 +121,7 @@
 			document.getElementById("fin").onchange = function(){
 				if(this.files.length>0){
 					if (this.files[0].size > 1073741824) { // 1 GiB
-						document.getElementById("status").innerHTML = "File too large! Only files up to 1 GiB are supported.";
+						document.getElementById("status").innerHTML = "File must be less than 1 GiB!";
 						document.getElementById("status").style.color = "#db2828";
 						setTimeout(() => {
 							window.location.reload();
